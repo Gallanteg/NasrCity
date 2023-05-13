@@ -1,0 +1,54 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Gallant"
+theme = "hugo-universal-theme"
+
+[params]
+  # Controls the display of the menu
+  dropdown_mouse_over = true
+
+  # Basic contact details
+  email = "your@email.com"
+  phone = "+1 555 555 5555"
+  address = "123 Some Street, City, Country"
+
+  # Social media links
+  [[params.social]]
+    icon = "linkedin"
+    URL = "https://linkedin.com/in/username/"
+  [[params.social]]
+    icon = "github"
+    URL = "https://github.com/username/"
+
+  # Logo for the site. Change these to your own logos.
+  logo = "img/logo.png"
+  logo_small = "img/logo-small.png"
+
+  # Google Analytics
+  googleAnalytics = "UA-XXXXX-X"
+
+  # Enable or disable sections
+  [params.widgets]
+    search = true
+    categories = true
+    tags = true
+
+  # Enable or disable the top bar
+  [params.topbar]
+    enable = true
+    text = "<p>Contact us on +1 555 555 5555 or your@email.com.</p>"
+
+# Menu entries
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+[[menu.main]]
+  name = "Blog"
+  url = "/posts/"
+  weight = 2
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 3
+
