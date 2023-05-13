@@ -3,15 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>127.0.0.1/categories/</loc>
+    <loc>https://Ahmad-Khaled.github.io/gallant3d/authors/</loc>
   </url>
   
   <url>
-    <loc>127.0.0.1/</loc>
+    <loc>https://Ahmad-Khaled.github.io/gallant3d/categories/</loc>
   </url>
   
   <url>
-    <loc>127.0.0.1/tags/</loc>
+    <loc>https://Ahmad-Khaled.github.io/gallant3d/</loc>
+  </url>
+  
+  <url>
+    <loc>https://Ahmad-Khaled.github.io/gallant3d/tags/</loc>
   </url>
   
 </urlset>

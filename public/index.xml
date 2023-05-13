@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gallant</title>
-    <link>127.0.0.1/</link>
+    <link>https://Ahmad-Khaled.github.io/gallant3d/</link>
     <description>Recent content on Gallant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="127.0.0.1/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://Ahmad-Khaled.github.io/gallant3d/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
