@@ -12,7 +12,4 @@ Please use the following information to get in touch with us:
 - Email: gallanteg3d@gmail.com
 - Phone: +20 155 630 6309 
 
-## Contact Form
-
-If you prefer, you can also fill out the form below to send us a message:
 
