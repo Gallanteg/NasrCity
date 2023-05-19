@@ -386,8 +386,8 @@ pluralizelisttitles = false
     default_sharing_image = "img/sharing-default.png"
 
     # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
-    # enableGoogleMaps = true
-    # googleMapsApiKey = ""
+    enableGoogleMaps = true
+    googleMapsApiKey = "AIzaSyBZvx9wU8wCky566cVgEIZti7xEVzTrexE"
 
     latitude = "-12.043333"
     longitude = "-77.028333"
@@ -444,7 +444,8 @@ pluralizelisttitles = false
     logo_small = "img/logo-small.png"
     contact_url = "/contact"
     address = """<p class="text-uppercase"><strong>Gallant</strong>
-        <br>Mostafa Al Nahas
+        <br>30 Africa
+        <br>Emtedad Moustafa Al-Nahas
         <br>Nasr City
         <br>Cairo
         <br>Egypt
