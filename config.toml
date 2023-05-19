@@ -375,10 +375,10 @@ pluralizelisttitles = false
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devcows", "hugo", "go"]
+    author = "akhaled"
+    # defaultKeywords = ["devcows", "hugo", "go"]
     mainSections = ["blog"]
-    defaultDescription = "Site template made by Devcows using Hugo"
+    defaultDescription = "Site owned by Gallant"
 
     # Social media
     facebook_site = "GallantEg3D" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
@@ -409,8 +409,8 @@ pluralizelisttitles = false
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io endpoint url
-    formspree_action = "https://formspree.io/sample/of/endpoint"
-    contact_form_ajax = false
+    formspree_action = "https://formspree.io/f/mjvdzqkv"
+    contact_form_ajax = true
 
     # Formspree form supports Google reCAPTCHA Key (type v2).
     # If you use this feature, you should enable reCAPTCHA feature in the Formspree dashboard.
