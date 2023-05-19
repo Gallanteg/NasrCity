@@ -381,16 +381,16 @@ pluralizelisttitles = false
     defaultDescription = "Site template made by Devcows using Hugo"
 
     # Social media
-    facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
-    twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
+    facebook_site = "GallantEg3D" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
+    # twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
     default_sharing_image = "img/sharing-default.png"
 
     # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
     enableGoogleMaps = true
     googleMapsApiKey = "AIzaSyBZvx9wU8wCky566cVgEIZti7xEVzTrexE"
 
-    latitude = "-12.043333"
-    longitude = "-77.028333"
+    latitude = "30.056821"
+    longitude = "31.364053"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "default"
