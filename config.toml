@@ -41,22 +41,21 @@ pluralizelisttitles = false
     weight     = 3
 
 [[menu.main]]
-    name       = "About"
+    name       = "about"
     identifier = "section.about"
-    url        = ""
+    url        = "/about/"
     weight     = 2
-    parent     = "menu.portfolio"
-    post       = 2
+
 
 [[menu.main]]
     name       = "About Us"
-    url        = ""
+    url        = "/about/us/"
     weight     = 1
     parent     = "section.about"
 
 [[menu.main]]
     name       = "Our Team"
-    url        = ""
+    url        = "/about/team/"
     weight     = 2
     parent     = "section.about"
 
@@ -100,6 +99,8 @@ pluralizelisttitles = false
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
+    # customCSS = ["css/cool-lamps.css"]
+    customCSS = ["css/custom.css"]
     viewMorePostLink = "/blog/"
     author = "akhaled"
     # defaultKeywords = ["devcows", "hugo", "go"]
@@ -119,7 +120,7 @@ pluralizelisttitles = false
     longitude = "31.364053"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "default"
+    style = "blue"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -236,10 +237,10 @@ pluralizelisttitles = false
 [params.see_more]
     enable = true
     icon = "far fa-file-alt"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared a lot of examples for 3D models for you to see our printing quality!"
-    link_url = "#"
-    link_text = "Go to our 3D models"
+    title = "Discover Our Cool Lithophane" 
+    subtitle = "We have prepared example personalized lamps for you!"
+    link_url = "/cool-lamps/"
+    link_text = "Explore Cool Lamps"
 
 [params.clients]
     enable = true
