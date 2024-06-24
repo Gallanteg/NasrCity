@@ -93,10 +93,11 @@ pluralizelisttitles = false
     pre = "<i class='fab fa-2x fa-facebook'></i>"
 
 [[menu.topbar]]
-    weight = 5
-    name = "Email"
-    url = "mailto:gallanteg3d@gmail.com"
-    pre = "<i class='fas fa-2x fa-envelope'></i>"
+    weight = 2
+    name = "Instagram"
+    url = "https://www.instagram.com/GallantEg3D"
+    pre = "<i class='fab fa-2x fa-instagram'></i>"
+
 
 [params]
     # customCSS = ["css/cool-lamps.css"]
@@ -239,7 +240,7 @@ pluralizelisttitles = false
     icon = "far fa-file-alt"
     title = "Discover Our Cool Lithophane" 
     subtitle = "We have prepared example personalized lamps for you!"
-    link_url = "/cool-lamps/"
+    link_url = "cool-lamps/"
     link_text = "Explore Cool Lamps"
 
 [params.clients]

@@ -22,11 +22,11 @@ Explore our range of lithophane lamps, each designed to highlight the intricate 
 
 ### 1. **Box**
 
-Elegant and timeless, our cylindrical lamps are perfect for any room.
+The box is 4 sided and it.
 
 {{< row >}}
-  {{< image src="/img/box.png" alt="The Box Lamp" class="small-image" >}}
-  {{< image src="/img/box-2.png" alt="The Box Lamp" class="small-image" >}}
+  {{< image src="img/box.png" alt="The Box Lamp - left side" class="small-image" >}}
+  {{< image src="img/box-2.png" alt="The Box Lamp - right side" class="small-image" >}}
 {{< /row >}}
 
 ### 2. **Modern Square Lamps**
