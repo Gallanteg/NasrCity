@@ -100,7 +100,6 @@ pluralizelisttitles = false
 
 
 [params]
-    # customCSS = ["css/cool-lamps.css"]
     customCSS = ["css/custom.css"]
     viewMorePostLink = "/blog/"
     author = "akhaled"
@@ -238,10 +237,10 @@ pluralizelisttitles = false
 [params.see_more]
     enable = true
     icon = "far fa-file-alt"
-    title = "Discover Our Cool Lithophane" 
+    title = "Discover Our Personalized Lithophane" 
     subtitle = "We have prepared example personalized lamps for you!"
-    link_url = "cool-lamps/"
-    link_text = "Explore Cool Lamps"
+    link_url = "personalized-lamps/"
+    link_text = "Explore Personalized Lamps"
 
 [params.clients]
     enable = true

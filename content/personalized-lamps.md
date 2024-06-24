@@ -1,12 +1,18 @@
 ---
-title: "Cool Lithophane Lamps"
+title: "Personalized Lamps"
 date: 2024-06-21T00:00:00Z
 draft: false
 ---
 
-# Discover Our Cool Lithophane Lamps
+# Discover Our Personalized Lamps
 
-Welcome to the world of lithophane lamps, where light and art come together to create stunning, personalized lighting experiences. Each lamp is crafted with care and precision, using your custom images to transform ordinary light into extraordinary displays.
+Welcome!
+
+Light and art come together to create stunning, personalized lighting experiences.
+
+Each lamp is crafted with care and precision.
+
+Customize your lamp however you want.
 
 ## Why Choose Our Lamps?
 
@@ -26,7 +32,6 @@ Bring your favorite moments to life with a glowing four-sided lamp.
 
 {{< row >}}
   {{< image src="https://gallanteg.github.io/NasrCity/img/box.png" alt="The Box Lamp - left side" class="small-image" >}}
-  {{< image src="https://gallanteg.github.io/NasrCity/img/box-2.png" alt="The Box Lamp - right side" class="small-image" >}}
 {{< /row >}}
 
 ### 2. **Surround**
@@ -37,25 +42,19 @@ Illuminate your memories in a stunning 360-degree glow
   {{< image src="https://gallanteg.github.io/NasrCity/img/surround.jpg" alt="360 Surround Lamp" class="small-image" >}}
 {{< /row >}}
 
-### 3. **Custom Shape Lamps**
+### 3. **Arc**
 
 Have a unique design in mind? We can create custom shapes to suit your needs.
 
-![Custom Shape Lamp](path-to-your-image.jpg){: style="max-width: 100%; height: auto;" }
+{{< row >}}
+  {{< image src="https://gallanteg.github.io/NasrCity/img/arc.jpg" alt="Arc Lamp" class="small-image" >}}
+{{< /row >}}
 
 ## How It Works
 
-1. **Choose Your Design**: Select from our pre-designed options or provide your own image.
-2. **Customize**: Decide on the size, shape, and any additional features.
+1. **Choose Your Design**: Select from our pre-designed options and then provide your own image/s.
+2. **Customize**: We will then talk about the size and dimensions.
 3. **Order**: Place your order and let us bring your vision to life.
-
-## Testimonials
-
-Don't just take our word for it. Here's what our customers have to say:
-
-> "The lithophane lamp I ordered was beyond my expectations. The detail and quality are amazing!" - Sarah J.
-
-> "A unique gift that my friend absolutely loved. Highly recommend!" - Mike T.
 
 ## Get Started
 
