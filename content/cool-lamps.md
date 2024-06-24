@@ -22,18 +22,20 @@ Explore our range of lithophane lamps, each designed to highlight the intricate 
 
 ### 1. **Box**
 
-The box is 4 sided and it.
+Bring your favorite moments to life with a glowing four-sided lamp.
 
 {{< row >}}
-  {{< image src="img/box.png" alt="The Box Lamp - left side" class="small-image" >}}
-  {{< image src="img/box-2.png" alt="The Box Lamp - right side" class="small-image" >}}
+  {{< image src="https://gallanteg.github.io/NasrCity/img/box.png" alt="The Box Lamp - left side" class="small-image" >}}
+  {{< image src="https://gallanteg.github.io/NasrCity/img/box-2.png" alt="The Box Lamp - right side" class="small-image" >}}
 {{< /row >}}
 
-### 2. **Modern Square Lamps**
+### 2. **Surround**
 
-For a contemporary touch, our square lamps add a modern flair to your space.
+Illuminate your memories in a stunning 360-degree glow
 
-![Modern Square Lamp](path-to-your-image.jpg){: style="max-width: 100%; height: auto;" }
+{{< row >}}
+  {{< image src="https://gallanteg.github.io/NasrCity/img/surround.jpg" alt="360 Surround Lamp" class="small-image" >}}
+{{< /row >}}
 
 ### 3. **Custom Shape Lamps**
 
