@@ -28,42 +28,42 @@ pluralizelisttitles = false
     url        = "/"
     weight     = 1
 
-[[menu.main]]
-    name       = "Features"
-    identifier = "menu.features"
-    url        = "/img/template-easy-customize.png"
-    weight     = 3
+# [[menu.main]]
+#     name       = "Features"
+#     identifier = "menu.features"
+#     url        = "/img/template-easy-customize.png"
+#     weight     = 3
 
-[[menu.main]]
-    name       = "Portfolio"
-    identifier = "menu.portfolio"
-    url        = "/img/template-homepage.png"
-    weight     = 3
+# [[menu.main]]
+#     name       = "Portfolio"
+#     identifier = "menu.portfolio"
+#     url        = "/img/template-homepage.png"
+#     weight     = 3
 
-[[menu.main]]
-    name       = "about"
-    identifier = "section.about"
-    url        = "/about/"
-    weight     = 2
+# [[menu.main]]
+#     name       = "about"
+#     identifier = "section.about"
+#     url        = "/about/"
+#     weight     = 2
 
 
-[[menu.main]]
-    name       = "About Us"
-    url        = "/about/us/"
-    weight     = 1
-    parent     = "section.about"
+# [[menu.main]]
+#     name       = "About Us"
+#     url        = "/about/us/"
+#     weight     = 1
+#     parent     = "section.about"
 
-[[menu.main]]
-    name       = "Our Team"
-    url        = "/about/team/"
-    weight     = 2
-    parent     = "section.about"
+# [[menu.main]]
+#     name       = "Our Team"
+#     url        = "/about/team/"
+#     weight     = 2
+#     parent     = "section.about"
 
-[[menu.main]]
-    name       = "Blog"
-    identifier = "menu.blog"
-    url        = "/blog/"
-    weight     = 5
+# [[menu.main]]
+#     name       = "Blog"
+#     identifier = "menu.blog"
+#     url        = "/blog/"
+#     weight     = 5
 
 [[menu.main]]
     name       = "FAQ"

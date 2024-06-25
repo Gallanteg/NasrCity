@@ -72,23 +72,7 @@ If you have any questions or need further assistance, please don't hesitate to r
 
 ## Contact Form
 
-To contact us, please use the form below:
-
-<!-- <form action="https://formspree.io/f/mjvdzqkv" method="POST">
-    <div class="form-group">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" class="form-control" required>
-    </div>
-    <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="_replyto" class="form-control" required>
-    </div>
-    <div class="form-group">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
-    </div>
-    <button type="submit" class="btn btn-template-main">Send Message</button>
-</form> -->
+{{< contact_form >}}
 
 ---
 

@@ -4,12 +4,15 @@
     align-items: center; /* Centers images vertically */
     gap: 20px; /* Adds more space between the images */
     margin-top: 20px; /* Adds some space above the row */
+    width: 100%; /* Ensures the row takes the full width of the container */
 }
 
 .small-image {
-    width: 300px !important; /* Adjust the width to fit better */
-    height: 300px !important; /* Set a fixed height */
-    object-fit: cover; /* Ensures the image covers the entire area */
+    max-width: 300px; /* Adjust the max width to fit better */
+    max-height: 300px; /* Adjust the max height to fit better */
+    width: auto; /* Automatically adjust the width */
+    height: auto; /* Automatically adjust the height */
+    object-fit: contain; /* Ensures the entire image fits within the element */
     object-position: center; /* Center the image within the element */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
     border-radius: 10px; /* Adds rounded corners */

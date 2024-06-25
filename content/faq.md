@@ -1,47 +1,21 @@
-+++
-title = "FAQ"
-description = "Frequently asked questions"
-keywords = ["FAQ","How do I","questions","what if"]
-+++
+---
+title: "Frequently Asked Questions"
+date: 2024-06-21T00:00:00Z
+draft: false
+---
 
-## Frequently Asked Questions
+## What makes your lithophane lamps unique?
 
-### 1. What is the maximum print size that Gallant can accommodate?
+You can customize the lamp with your own images, making it unique and perfect for showcasing memories or artwork.
 
-The maximum print size we can handle is 30 x 30 x 40 cm.
+## How can I customize my lithophane lamp?
 
-### 2. What types of materials does Gallant currently offer for 3D printing?
+Customizing your lamp is easy! Choose a design from our available options or provide your own images. Then, you can select the size, shape, and additional features.
 
-Currently, we only provide PLA (Polylactic Acid) filament. We offer PLA in the following colors: Black, Grey, White, Transparent, and Orange.
+## How long does it take to receive my custom lamp?
 
-### 3. What file formats does Gallant accept for 3D printing?
+It usually takes [X] days to prepare and ship your lamp. Shipping times vary based on your location, but we strive to deliver your lamp as quickly as possible.
 
-We accept any 3D model file types, but we start printing with the STL (Standard Tessellation Language) format.
+## What materials are used to make the lamps?
 
-### 4. How do customers submit their 3D designs for printing?
-
-Customers can simply send us the STL file of their design. They can email it to us or use any other convenient file transfer method. Once the file is submitted, they can expect their print to be ready for pickup in one or two business days.
-
-### 5. What is the typical turnaround time for a 3D printing project?
-
-The turnaround time depends on the complexity and size of the print. For prints weighing less than 50 grams, we guarantee same-day delivery. Larger prints may require additional time, typically within one to two business days.
-
-### 6. Does Gallant offer express service for faster project completion?
-
-Yes, we offer high-priority tasks at double the price per gram. This allows for expedited completion of your project.
-
-### 7. How does Gallant ensure the privacy of customer designs?
-
-At Gallant, protecting your privacy is our top priority. To ensure the security of your designs, we recommend sharing only the STL file, as it cannot be easily edited or manipulated.
-
-### 8. Does Gallant provide support or consultation for 3D design assistance?
-
-Currently, we do not provide support or consultation for 3D design assistance. However, we are actively working on adding this service in the near future.
-
-### 9. What is Gallant's policy if a print does not meet the client's expectations?
-
-If we did not inform you beforehand of any risks associated with printing a particular part, and the print does not meet your expectations, we will provide a full refund.
-
-### 10. What are the pricing details for 3D printing services at Gallant?
-
-For models weighing less than 50 grams, the cost is EGP 3 per gram. For models weighing more than 50 grams, the cost is EGP 2.5 per gram.
+Our lamps are made from high-quality, durable plastic materials designed to last. The lamps are printed with precision to accurately display your chosen images.
