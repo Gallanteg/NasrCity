@@ -31,7 +31,7 @@ Explore our range of lithophane lamps, each designed to highlight the intricate 
 Bring your favorite moments to life with a glowing four-sided lamp.
 
 {{< row >}}
-  {{< image src="https://gallanteg.github.io/NasrCity/img/box.png" alt="The Box Lamp - left side" class="small-image" >}}
+  {{< image src="https://gallanteg.github.io/NasrCity/img/box.jpg" alt="The Box Lamp - left side" class="small-image" >}}
 {{< /row >}}
 
 ### 2. **Surround**
