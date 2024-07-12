@@ -12,11 +12,12 @@ export default async (req, res) => {
     // Apply rate limiting
     limiter(req, res, async () => {
         if (req.method !== 'POST') {
+            res.setHeader('Allow', 'POST');
             return res.status(405).send({ message: 'Only POST requests allowed' });
         }
 
         const { name, email, message, images } = req.body;
-        
+
         console.log('Received request data:', { name, email, message, images });
 
         // Validate request data
