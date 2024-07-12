@@ -4,3 +4,4 @@
 /themes/*/node_modules/ # Node modules if you're using any themes that need them
 *.bak # Backup files that Hugo can generate in certain situations
 
+.env
