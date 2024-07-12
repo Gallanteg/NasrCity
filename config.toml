@@ -77,6 +77,11 @@ pluralizelisttitles = false
     url        = "/contact/"
     weight     = 7
 
+[[menu.main]]
+    name       = "Submit Testimonial"
+    identifier = "menu.submit_testimonial"
+    url        = "/submit-testimonial/"
+    weight     = 8
 
 # Top bar social links menu
 
@@ -228,16 +233,13 @@ pluralizelisttitles = false
 
 [params.testimonials]
     enable = true
-    # All testimonials are defined in their own files. You can find example items
-    # at 'exampleSite/data/testimonials'.
-    # For more information take a look at the README.
     title = "Testimonials"
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
 [params.see_more]
     enable = true
     icon = "far fa-file-alt"
-    title = "Discover Our Personalized Lithophane" 
+    title = "Discover Our Personalized Lamps" 
     subtitle = "We have prepared example personalized lamps for you!"
     link_url = "personalized-lamps/"
     link_text = "Explore Personalized Lamps"
@@ -251,7 +253,7 @@ pluralizelisttitles = false
     subtitle = ""
 
 [params.recent_posts]
-    enable = true
+    enable = false
     title = "From our blog"
     subtitle = ""
     hide_summary = false

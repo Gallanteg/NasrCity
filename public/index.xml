@@ -2,32 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gallant</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/NasrCity/</link>
     <description>Recent content on Gallant</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/NasrCity/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cool Lithophane Lamps</title>
-      <link>http://localhost:1313/cool-lamps/</link>
+      <title>Submit Your Testimonial</title>
+      <link>http://localhost:1313/NasrCity/submit-testimonial/</link>
+      <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/NasrCity/submit-testimonial/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>Frequently Asked Questions</title>
+      <link>http://localhost:1313/NasrCity/faq/</link>
       <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cool-lamps/</guid>
-      <description>Discover Our Cool Lithophane Lamps Welcome to the world of lithophane lamps, where light and art come together to create stunning, personalized lighting experiences. Each lamp is crafted with care and precision, using your custom images to transform ordinary light into extraordinary displays.&#xA;Why Choose Our Lamps? The lamps we offer have a unique way to showcase your memories, artistic creations, or brand logos. Here are some reasons why our customers love them:</description>
+      <guid>http://localhost:1313/NasrCity/faq/</guid>
+      <description>What makes your lithophane lamps unique? You can customize the lamp with your own images, making it unique and perfect for showcasing memories or artwork.&#xA;How can I customize my lithophane lamp? Customizing your lamp is easy! Choose a design from our available options or provide your own images. Then, you can select the size, shape, and additional features.&#xA;How long does it take to receive my custom lamp? It usually takes [X] days to prepare and ship your lamp.</description>
+    </item>
+    <item>
+      <title>Personalized Lamps</title>
+      <link>http://localhost:1313/NasrCity/personalized-lamps/</link>
+      <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/NasrCity/personalized-lamps/</guid>
+      <description>Discover Our Personalized Lamps Welcome!&#xA;Light and art come together to create stunning, personalized lighting experiences.&#xA;Each lamp is crafted with care and precision.&#xA;Customize your lamp however you want.&#xA;Why Choose Our Lamps? The lamps we offer have a unique way to showcase your memories, artistic creations, or brand logos. Here are some reasons why our customers love them:&#xA;Personalization: Use your own images to create a truly unique lamp. Quality: High-quality 3D printing ensures durability and exceptional detail.</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>http://localhost:1313/NasrCity/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>http://localhost:1313/NasrCity/contact/</guid>
       <description>We are here to help you Contact Information Please use the following information to get in touch with us:&#xA;Email: gallanteg3d@gmail.com Phone: +20 155 630 6309 </description>
-    </item>
-    <item>
-      <title>FAQ</title>
-      <link>http://localhost:1313/faq/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/faq/</guid>
-      <description>Frequently Asked Questions 1. What is the maximum print size that Gallant can accommodate? The maximum print size we can handle is 30 x 30 x 40 cm.&#xA;2. What types of materials does Gallant currently offer for 3D printing? Currently, we only provide PLA (Polylactic Acid) filament. We offer PLA in the following colors: Black, Grey, White, Transparent, and Orange.&#xA;3. What file formats does Gallant accept for 3D printing? We accept any 3D model file types, but we start printing with the STL (Standard Tessellation Language) format.</description>
     </item>
   </channel>
 </rss>
