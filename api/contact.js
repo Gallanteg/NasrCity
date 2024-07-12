@@ -16,6 +16,8 @@ export default async (req, res) => {
         }
 
         const { name, email, message, images } = req.body;
+        
+        console.log('Received request data:', { name, email, message, images });
 
         // Validate request data
         if (!name || !email || !message || !images) {
@@ -33,6 +35,8 @@ export default async (req, res) => {
             return res.status(400).json({ success: false, message: 'Invalid images format' });
         }
 
+        console.log('Validated request data.');
+
         const transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
@@ -40,6 +44,8 @@ export default async (req, res) => {
                 pass: process.env.EMAIL_PASSWORD
             }
         });
+
+        console.log('Nodemailer transporter created.');
 
         const attachments = images.map((image) => ({
             filename: image.filename,
@@ -55,11 +61,14 @@ export default async (req, res) => {
             attachments: attachments
         };
 
+        console.log('Mail options prepared:', mailOptions);
+
         try {
             await transporter.sendMail(mailOptions);
+            console.log('Email sent successfully.');
             res.status(200).json({ success: true });
         } catch (error) {
-            console.error(error);
+            console.error('Error sending email:', error);
             res.status(500).json({ success: false, message: 'Failed to send email', error: error.message });
         }
     });
