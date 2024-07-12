@@ -1,21 +1,7 @@
 require('dotenv').config();
 const nodemailer = require('nodemailer');
-const cors = require('cors');
-const express = require('express');
 
-const app = express();
-
-// Configure CORS
-app.use(cors({
-    origin: '*',  // Allow all origins
-    methods: ['GET', 'POST'],
-    allowedHeaders: ['Content-Type']
-}));
-
-// Middleware to parse JSON bodies
-app.use(express.json());
-
-app.post('/api/contact', async (req, res) => {
+export default async (req, res) => {
     if (req.method !== 'POST') {
         res.setHeader('Allow', 'POST');
         return res.status(405).send({ message: 'Only POST requests allowed' });
@@ -71,6 +57,4 @@ app.post('/api/contact', async (req, res) => {
         console.error('Error sending email:', error);
         res.status(500).json({ success: false, message: 'Failed to send email', error: error.message });
     }
-});
-
-module.exports = app;
+};
