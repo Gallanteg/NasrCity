@@ -34,7 +34,7 @@
 
 
 
-<link href="/NasrCity/css/custom.css?1720804387" rel="stylesheet">
+<link href="/NasrCity/css/custom.css?1720804540" rel="stylesheet">
 
 
 
@@ -349,7 +349,7 @@
         const formObject = Object.fromEntries(formData.entries());
         formObject.images = images;
         
-        const response = await fetch('https://nasr-city.vercel.app/api/contact', {
+        const response = await fetch('nasr-city.vercel.app/api/contact', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(formObject)
