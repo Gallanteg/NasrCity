@@ -34,7 +34,7 @@
 
 
 
-<link href="/NasrCity/css/custom.css?1719351696" rel="stylesheet">
+<link href="/NasrCity/css/custom.css?1720802868" rel="stylesheet">
 
 
 
@@ -261,7 +261,7 @@
 
 
 <h3 id="2-surround">2. <strong>Surround</strong></h3>
-<p>Illuminate your memories in a stunning 360-degree glow</p>
+<p>Illuminate your memories in a stunning 360-degree glow.</p>
 <div class="image-row">
   
   <img src="https://gallanteg.github.io/NasrCity/img/surround.jpg" alt="360 Surround Lamp" class="small-image">
@@ -280,6 +280,13 @@
 </div>
 
 
+<h2 id="prices">Prices</h2>
+<p>Here are the prices for each of our personalized lamps:</p>
+<ul>
+<li><strong>Arc Lamp</strong>: EGP450</li>
+<li><strong>Box Lamp</strong>: EGP700</li>
+<li><strong>Surround Lamp</strong>: EGP900</li>
+</ul>
 <h2 id="how-it-works">How It Works</h2>
 <ol>
 <li><strong>Choose Your Design</strong>: Select from our pre-designed options and then provide your own image/s.</li>
@@ -287,9 +294,7 @@
 <li><strong>Order</strong>: Place your order and let us bring your vision to life.</li>
 </ol>
 <h2 id="get-started">Get Started</h2>
-<p>Ready to illuminate your space with a cool lithophane lamp? Visit our <a href="/shop">shop</a> to start customizing your lamp today!</p>
-<h2 id="contact-us">Contact Us</h2>
-<p>If you have any questions or need further assistance, please don&rsquo;t hesitate to reach out to us. We&rsquo;re here to help!</p>
+<p>Ready to illuminate your space with a cool lithophane lamp? Send your info and the image in the section below.</p>
 <h3 id="contact-information">Contact Information</h3>
 <ul>
 <li><strong>Phone</strong>: +20 155 630 6309</li>
@@ -297,21 +302,68 @@
 <li><strong>Address</strong>: 30 Africa, Emtedad Moustafa Al-Nahas, Nasr City, Cairo, Egypt</li>
 </ul>
 <h2 id="contact-form">Contact Form</h2>
-<form action="https://formspree.io/f/mjvdzqkv" method="POST">
+<form id="contact-form" method="POST" enctype="multipart/form-data" class="elegant-form">
     <div class="form-group">
         <label for="name">Name</label>
-        <input type="text" id="name" name="name" class="form-control" required>
+        <input type="text" id="name" name="name" class="form-control elegant-input" required>
     </div>
     <div class="form-group">
         <label for="email">Email</label>
-        <input type="email" id="email" name="_replyto" class="form-control" required>
+        <input type="email" id="email" name="email" class="form-control elegant-input" required>
     </div>
     <div class="form-group">
         <label for="message">Message</label>
-        <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+        <textarea id="message" name="message" class="form-control elegant-textarea" rows="3" required></textarea>
     </div>
-    <button type="submit" class="btn btn-template-main">Send Message</button>
+    <div class="form-group">
+        <label for="images">Upload Your Images</label>
+        <input type="file" id="images" name="images[]" class="form-control elegant-input" accept="image/*" multiple required>
+    </div>
+    <button type="submit" class="btn btn-template-main elegant-button">Send Message</button>
 </form>
+
+<script>
+    document.getElementById('contact-form').addEventListener('submit', async function (e) {
+        e.preventDefault();
+        const form = e.target;
+        const formData = new FormData(form);
+        const images = [];
+        
+        for (const file of formData.getAll('images[]')) {
+            const reader = new FileReader();
+            reader.readAsDataURL(file);
+            reader.onload = () => {
+                images.push({
+                    filename: file.name,
+                    content: reader.result.split(',')[1],
+                    contentType: file.type
+                });
+                if (images.length === formData.getAll('images[]').length) {
+                    sendForm(formData, images);
+                }
+            };
+        }
+    });
+
+    async function sendForm(formData, images) {
+        const formObject = Object.fromEntries(formData.entries());
+        formObject.images = images;
+        
+        const response = await fetch('https://nasr-city-gallantegs-projects.vercel.app/api/contact', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(formObject)
+        });
+        
+        const result = await response.json();
+        if (result.success) {
+            alert('Message sent successfully!');
+            document.getElementById('contact-form').reset();
+        } else {
+            alert('Error sending message.');
+        }
+    }
+</script>
 
 <hr>
 <p>Gallant - Bringing Light to Your Memories</p>

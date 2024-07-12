@@ -36,7 +36,7 @@ Bring your favorite moments to life with a glowing four-sided lamp.
 
 ### 2. **Surround**
 
-Illuminate your memories in a stunning 360-degree glow
+Illuminate your memories in a stunning 360-degree glow.
 
 {{< row >}}
   {{< image src="https://gallanteg.github.io/NasrCity/img/surround.jpg" alt="360 Surround Lamp" class="small-image" >}}
@@ -50,6 +50,14 @@ Have a unique design in mind? We can create custom shapes to suit your needs.
   {{< image src="https://gallanteg.github.io/NasrCity/img/arc.jpg" alt="Arc Lamp" class="small-image" >}}
 {{< /row >}}
 
+## Prices
+
+Here are the prices for each of our personalized lamps:
+
+- **Arc Lamp**: EGP450
+- **Box Lamp**: EGP700
+- **Surround Lamp**: EGP900
+
 ## How It Works
 
 1. **Choose Your Design**: Select from our pre-designed options and then provide your own image/s.
@@ -58,11 +66,7 @@ Have a unique design in mind? We can create custom shapes to suit your needs.
 
 ## Get Started
 
-Ready to illuminate your space with a cool lithophane lamp? Visit our [shop](/shop) to start customizing your lamp today!
-
-## Contact Us
-
-If you have any questions or need further assistance, please don't hesitate to reach out to us. We're here to help!
+Ready to illuminate your space with a cool lithophane lamp? Send your info and the image in the section below.
 
 ### Contact Information
 

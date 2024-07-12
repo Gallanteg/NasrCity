@@ -5,3 +5,4 @@
 *.bak # Backup files that Hugo can generate in certain situations
 
 .env
+.vercel
