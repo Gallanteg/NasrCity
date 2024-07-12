@@ -43,7 +43,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 // Test fetch request
                 fetch('https://nasr-city-gallantegs-projects.vercel.app/api/contact', {
                     method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
+                    headers: { 
+                        'Content-Type': 'application/json',
+                        'Access-Control-Allow-Origin': '*',  // Handle CORS
+                    },
                     body: JSON.stringify(formObject),
                     signal: controller.signal
                 })
