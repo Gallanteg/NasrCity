@@ -56,10 +56,11 @@ export default async (req, res) => {
     }));
 
     const mailOptions = {
-        from: email,
+        from: process.env.EMAIL_USER,  // Use the server email as sender
+        replyTo: email,  // Use client's email as reply-to
         to: process.env.EMAIL_USER,
         subject: `Contact Form Submission from ${name}`,
-        text: message,
+        text: `Message: ${message}\n\nFrom: ${name}\nEmail: ${email}`,
         attachments: attachments
     };
 
