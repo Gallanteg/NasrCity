@@ -106,6 +106,7 @@ pluralizelisttitles = false
 
 [params]
     customCSS = ["css/custom.css"]
+    customJS = ["js/contact_form.js"]  # Ensure this is added if needed for configuration
     viewMorePostLink = "/blog/"
     author = "akhaled"
     # defaultKeywords = ["devcows", "hugo", "go"]
