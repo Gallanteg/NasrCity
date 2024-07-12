@@ -1,8 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
-    console.log('JavaScript is running');
+    console.log('contact_form.js is loaded');
 
     const form = document.getElementById('contact-form');
     if (form) {
+        console.log('Form found, attaching event listener');
         form.addEventListener('submit', function (e) {
             e.preventDefault();
             console.log('Form submission prevented');
@@ -35,6 +36,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     images: images
                 };
 
+                console.log('Form data prepared:', formObject);
+
                 fetch('https://nasr-city-gallantegs-projects.vercel.app/api/contact', {
                     method: 'POST',
                     headers: {
@@ -43,6 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     body: JSON.stringify(formObject),
                 })
                     .then(response => {
+                        console.log('Fetch response:', response);
                         if (!response.ok) {
                             throw new Error(`Network response was not ok: ${response.statusText}`);
                         }

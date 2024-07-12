@@ -34,7 +34,7 @@
 
 
 
-<link href="/NasrCity/css/custom.css?1720818506" rel="stylesheet">
+<link href="/NasrCity/css/custom.css?1720819103" rel="stylesheet">
 
 
 
@@ -304,37 +304,53 @@
 <h2 id="contact-form">Contact Form</h2>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    
-    <script src="/js/contact_form.js" defer></script>
-</head>
+    <title>Test Page</title>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        console.log('Test script is running');
 
+        const form = document.getElementById('test-form');
+        if (form) {
+            console.log('Form found');
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+                console.log('Form submission prevented');
+
+                fetch('https://nasr-city-gallantegs-projects.vercel.app/api/contact', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ test: 'data' }),
+                })
+                .then(response => {
+                    console.log('Fetch response:', response);
+                    if (!response.ok) {
+                        throw new Error(`Network response was not ok: ${response.statusText}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('Success:', data);
+                })
+                .catch(error => {
+                    console.error('Fetch error:', error);
+                });
+            });
+        } else {
+            console.log('Form not found');
+        }
+    });
+    </script>
+</head>
 <body>
-    
-    <form id="contact-form" method="POST" enctype="multipart/form-data" class="elegant-form">
-        <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" class="form-control elegant-input" required>
-        </div>
-        <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" class="form-control elegant-input" required>
-        </div>
-        <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" class="form-control elegant-textarea" rows="3" required></textarea>
-        </div>
-        <div class="form-group">
-            <label for="images">Upload Your Images</label>
-            <input type="file" id="images" name="images[]" class="form-control elegant-input" accept="image/*" multiple
-                required>
-        </div>
-        <button type="submit" class="btn btn-template-main elegant-button">Send Message</button>
+    <form id="test-form">
+        <button type="submit">Submit</button>
     </form>
 </body>
-
 </html>
+
 <hr>
 <p>Gallant - Bringing Light to Your Memories</p>
 
