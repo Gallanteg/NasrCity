@@ -1,5 +1,5 @@
-const nodemailer = require('nodemailer');
 require('dotenv').config();
+const nodemailer = require('nodemailer');
 
 export default async (req, res) => {
     if (req.method !== 'POST') {
@@ -27,8 +27,6 @@ export default async (req, res) => {
         return res.status(400).json({ success: false, message: 'Invalid images format' });
     }
 
-    console.log('Validated request data.');
-
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
@@ -37,9 +35,7 @@ export default async (req, res) => {
         }
     });
 
-    console.log('Nodemailer transporter created.');
-
-    const attachments = images.map((image) => ({
+    const attachments = images.map(image => ({
         filename: image.filename,
         content: Buffer.from(image.content, 'base64'),
         contentType: image.contentType
@@ -52,8 +48,6 @@ export default async (req, res) => {
         text: message,
         attachments: attachments
     };
-
-    console.log('Mail options prepared:', mailOptions);
 
     try {
         await transporter.sendMail(mailOptions);

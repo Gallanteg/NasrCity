@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "public": true,
   "builds": [
     {
       "src": "api/contact.js",
@@ -10,6 +9,7 @@
   "routes": [
     {
       "src": "/api/contact",
+      "methods": ["POST"],
       "dest": "/api/contact.js"
     }
   ]
